@@ -94,4 +94,6 @@ Todo el código fue revisado, ejecutado y probado por el autor antes de la entre
 
 ## Autor
 
-Marco Obregón
+Marco Obregón,
+Leider Marino hoyos
+
