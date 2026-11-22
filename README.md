@@ -1,6 +1,6 @@
 # Taller DOM + API con Node JS y Express
 
-**Autor:** Marco Obregón
+**Autor:** Marco Obregón, Leider Hoyos
 **Curso:** G611 – Semestre 2 de 2026
 **Entrega:** Taller DOM + API con Node JS y Express
 
