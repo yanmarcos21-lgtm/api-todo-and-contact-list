@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node server.js"
   },
-  "author": "Marco Obregón",
+  "author": "Marco Obregón. Leider Hoyos",
   "license": "ISC",
   "dependencies": {
     "express": "^4.19.2"
