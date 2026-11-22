@@ -1,0 +1,14 @@
+{
+  "name": "api-todo-and-contact-list-g611-s2-2026",
+  "version": "1.0.0",
+  "description": "Taller DOM + API con Node JS y Express: lista de tareas y lista de contactos",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Marco Obregón",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

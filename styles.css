@@ -1,0 +1,191 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px 16px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+/* ---------- Botón principal ---------- */
+.btn-principal {
+  background: #667eea;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-principal:hover {
+  opacity: 0.9;
+}
+
+.enlace {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  color: #667eea;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+/* =========================================================
+   PÁGINA TAREAS (fondo morado)
+   ========================================================= */
+.pagina-tareas {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.tarjeta {
+  background: #fff;
+  width: 100%;
+  max-width: 440px;
+  border-radius: 20px;
+  padding: 24px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+}
+
+.iconos {
+  text-align: center;
+  font-size: 34px;
+}
+
+.fila-entrada {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 18px;
+}
+
+.fila-entrada input {
+  flex: 1;
+  padding: 12px;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+#listaTareas li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  background: #f5f5f7;
+  border-radius: 10px;
+  padding: 12px;
+  margin-bottom: 10px;
+}
+
+#listaTareas li .texto {
+  flex: 1;
+  word-break: break-word;
+}
+
+#listaTareas li.completada .texto {
+  text-decoration: line-through;
+  color: #999;
+}
+
+.acciones {
+  display: flex;
+  gap: 10px;
+}
+
+.btn-icono {
+  border: none;
+  border-radius: 6px;
+  width: 36px;
+  height: 30px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.btn-completar { background: #ffa500; color: #fff; }
+.btn-editar    { background: #ff5d6c; color: #fff; }
+.btn-eliminar  { background: #ffe3e7; color: #e0245e; }
+
+/* =========================================================
+   PÁGINA CONTACTOS (fondo amarillo)
+   ========================================================= */
+.pagina-contactos {
+  background: #e8cd6a;
+}
+
+.contenedor-contactos {
+  width: 100%;
+  max-width: 450px;
+}
+
+.iconos-grandes {
+  text-align: center;
+  font-size: 56px;
+}
+
+.pagina-contactos h1 {
+  color: #fff;
+  font-size: 34px;
+}
+
+#formContacto {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+#formContacto input[type="text"],
+#formContacto input[type="tel"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.generos {
+  display: flex;
+  gap: 20px;
+  font-size: 14px;
+}
+
+.pagina-contactos .btn-principal {
+  background: #0a62ff;
+  border-radius: 4px;
+  padding: 8px 14px;
+}
+
+#listaContactos {
+  margin-top: 24px;
+}
+
+#listaContactos li {
+  background: #fff;
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+}
+
+.enlace-claro {
+  color: #fff;
+}
